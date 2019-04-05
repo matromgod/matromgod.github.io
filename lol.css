@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mig{
+    grid-area: header;
+    text-align: center;
+    background-color: rgb(26, 181, 228);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(26, 181, 228);
+}
+li {
+    float: left;
+}
+@media only screen and (max-width: 650px){
+    ul {
+        align-content: center;
+    }
+    
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+li a:hover {
+    background-color: white;
+}
