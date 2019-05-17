@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+table, th, td {
+    border: 2px solid purple;
+}
+table {
+    margin: auto;
+}
+td, tr {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: skyblue;
+}
+body {
+    background-color: white; 
+}
+th {
+    text-transform: strong;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+td {
+    background-color: rgb(0, 255, 157);
+}
+body {
+    background-color: rgb(37, 37, 37);
+}
+#titel {
+    background-color: white;
+}
+#brödtext1 {
+    color: white;
+}
+#brödtext2{
+    color: white;
+}
+#titel2{
+    position: absolute;
+    top: 55px;
+    right: 15px;
+
+}
+ol{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    border: 3px solid red;
+    width: 250px;
+}
+img#Tweet_button{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    height: 50px;
+    width: 100px;
+}
+img#Facebook_button{
+    position: fixed;
+    bottom: 8px;
+    right: 104px;
+    height: 38px;
+    width: 35px;
+}
+img#bild_på_Matheo{
+    display: block;
+    margin: auto;
+    position: relative;
+    height: 350px;
+    width: 350px;
+}
+img#ntilogga{
+    position: fixed;
+    bottom: 2px;
+    right: 145px;
+    height: auto;
+    width: 48px;
+}
+#internetshistoria{
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid skyblue;
+    position: relative;
+    bottom: 10px;
+    right: 1px;
+}
