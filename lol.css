@@ -5,33 +5,32 @@
 
 .grid-container{
     height: 100vh;
+    /*width: 100vh;*/
+    display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-.column_L {
-    float: left;
-    width: 15%;
-    padding: 15px;
+.column_l {
     background-color: #0EF0A9;
     grid-column: 1 / 1;
-    height: 100vh;
 }
 
-.column_M {
-    grid-column: 2 / 3;
+.tittle_l{
+    text-align: center;
+}
+
+.column_m {
+    grid-column: 2 / 4;
 
 }
 
-.column_R {
-    float: right;
-    width: 15%;
-    padding: 15px;
+.column_r {
     text-align: right;
     background-color: #0EF0A9;
     bottom: 0px;
-    grid-column: 1 / 5;
-    height: 100vh;
+    grid-column: 4 / 5;
 }
+
 
 
 .mig{
@@ -63,17 +62,27 @@ li a {
 li a:hover {
     background-color: white;
 }
-@media only screen and (max-width: 650px){
+.ntilogga{
+    float: right;
+    height: auto;
+}
+.ntilogga2{
+    height: 13px;
+    width: auto;
+
+}
+/*mobil*/
+/*@media only screen and (max-width: 650px){
     ul {
         align-content: center;
     }
-    .column_L {
+    .column_l {
         float: left;
         width: 49%;
         padding: 15px;
         background-color: #0EF0A9;
     }
-    .column_R {
+    .column_r {
         float: right;
         width: 49%;
         padding: 15px;
@@ -113,3 +122,87 @@ li a:hover {
         background-color: white;
     }
 }
+*/
+/* Härifrån är det css för om mig*/
+
+table, th, td {
+    border: 2px solid purple;
+}
+table {
+    margin: auto;
+}
+td, tr {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1_column_l {
+    text-align: center;
+    background-color: skyblue;
+}
+.body1 {
+    background-color: white; 
+}
+th {
+    text-transform: strong;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+td {
+    background-color: rgb(0, 255, 157);
+}
+.body2 {
+    background-color: rgb(37, 37, 37);
+}
+#titel {
+    background-color: white;
+}
+#brödtext1 {
+    color: white;
+}
+#brödtext2{
+    color: white;
+}
+#titel2{
+    position: relative;
+    top: 55px;
+    right: 15px;
+
+}
+ol{
+    position: relative;
+    top: auto;
+    right: auto;
+    border: 3px solid red;
+    width: auto;
+}
+/*img#Tweet_button{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    height: 50px;
+    width: 100px;
+}
+img#Facebook_button{
+    position: fixed;
+    bottom: 8px;
+    right: 104px;
+    height: 38px;
+    width: 35px;
+}
+img#bild_på_Matheo{
+    display: block;
+    margin: auto;
+    position: relative;
+    height: 350px;
+    width: 350px;
+}
+#internetshistoria{
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid skyblue;
+    position: relative;
+    bottom: 10px;
+    right: 1px;
+}*/
