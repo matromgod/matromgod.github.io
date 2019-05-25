@@ -4,46 +4,50 @@
 }
 
 .grid-container{
+    background-color: #297280;
     height: 100vh;
-    /*width: 100vh;*/
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
 .column_l {
-    background-color: #0EF0A9;
+    background-color: #b6f3ff;
     grid-column: 1 / 1;
+    width: 100%;
 }
-
 .tittle_l{
     text-align: center;
 }
 
 .column_m {
     grid-column: 2 / 4;
-
+    text-align: center;
 }
 
 .column_r {
-    text-align: right;
-    background-color: #0EF0A9;
-    bottom: 0px;
+    text-align: center;
+    background-color: #b6f3ff;
+    width: 100%;
     grid-column: 4 / 5;
 }
 
-
+.maintxt{
+    text-align: center;
+    background-color: #b6f3ff;
+    grid-column: 2 / 4;
+}
 
 .mig{
     grid-area: header;
     text-align: center;
-    background-color: rgb(26, 181, 228);
+    background-color: #265080;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(26, 181, 228);
+    background-color: #265080;
 }
 li {
     float: left;
@@ -69,40 +73,54 @@ li a:hover {
 .ntilogga2{
     height: 13px;
     width: auto;
+    padding: 0px;
 
 }
 /*mobil*/
-/*@media only screen and (max-width: 650px){
-    ul {
-        align-content: center;
+@media only screen and (max-width: 650px){
+    .grid-container{
+        background-color: #297280;
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .body1{
+        height: 100vh;
+        padding-top: 0px;
+    }
+    .bild_på_Matheo{
+        align-self: center;
+        display: block;
+        margin: auto;
+        position: relative;
+        height: 350px;
+        width: 350px;
+        grid-column: 2 / 4;
     }
     .column_l {
-        float: left;
-        width: 49%;
-        padding: 15px;
-        background-color: #0EF0A9;
+        display: none;
+        visibility: hidden;
+    }
+    .column_m {
+        grid-column: 1 / 5;
+        text-align: center;
     }
     .column_r {
-        float: right;
-        width: 49%;
-        padding: 15px;
-        text-align: right;
-        background-color: #0EF0A9;
-        height: 100%;
-        bottom: 0px;
-    }
+        display: none;
+        visibility: hidden;
     
+    }
     .mig{
         grid-area: header;
         text-align: center;
-        background-color: rgb(26, 181, 228);
+        background-color: #265080;
     }
     ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: rgb(26, 181, 228);
+        background-color: #265080;
     }
     li {
         float: left;
@@ -122,7 +140,7 @@ li a:hover {
         background-color: white;
     }
 }
-*/
+
 /* Härifrån är det css för om mig*/
 
 table, th, td {
@@ -136,10 +154,7 @@ td, tr {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.h1_column_l {
-    text-align: center;
-    background-color: skyblue;
-}
+
 .body1 {
     background-color: white; 
 }
@@ -152,57 +167,39 @@ th {
 td {
     background-color: rgb(0, 255, 157);
 }
-.body2 {
-    background-color: rgb(37, 37, 37);
-}
 #titel {
-    background-color: white;
+    background-color: rgb(108, 173, 199);
+    text-align: center;
 }
 #brödtext1 {
     color: white;
+    text-align: center;
 }
 #brödtext2{
     color: white;
 }
 #titel2{
+    padding-left: 10px;
     position: relative;
     top: 55px;
     right: 15px;
 
 }
 ol{
+    padding-left: 30px;
     position: relative;
     top: auto;
     right: auto;
     border: 3px solid red;
     width: auto;
 }
-/*img#Tweet_button{
-    position: fixed;
-    bottom: 2px;
-    right: 2px;
-    height: 50px;
-    width: 100px;
-}
-img#Facebook_button{
-    position: fixed;
-    bottom: 8px;
-    right: 104px;
-    height: 38px;
-    width: 35px;
-}
-img#bild_på_Matheo{
+.bild_på_Matheo{
+    align-self: center;
     display: block;
     margin: auto;
     position: relative;
     height: 350px;
     width: 350px;
 }
-#internetshistoria{
-    text-decoration: none;
-    color: white;
-    border: 0.5px solid skyblue;
-    position: relative;
-    bottom: 10px;
-    right: 1px;
-}*/
+
+/*Härifrån börjar css för God_Jul sida*/
